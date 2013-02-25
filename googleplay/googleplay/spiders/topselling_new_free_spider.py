@@ -13,7 +13,8 @@ reload(sys)
 sys.setdefaultencoding("UTF-8")
 
 class TopSellingNewFreeSpider(BaseSpider):
-    name = "TopSellingNewFree"
+    #name = "TopSellingNewFree"
+    name = "googleplay"
     allowed_domains = ["play.google.com"]
     start_urls = []
     def __init__(self,start=0):

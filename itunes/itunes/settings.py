@@ -14,3 +14,7 @@ NEWSPIDER_MODULE = 'itunes.spiders'
 DEFAULT_ITEM_CLASS = 'itunes.items.ItunesItem'
 USER_AGENT = '%s/%s' % (BOT_NAME, BOT_VERSION)
 
+DOWNLOADER_MIDDLEWARES = {
+#    'scrapy.contrib.downloadermiddleware.httpproxy.HttpProxyMiddleware': 110,
+#    'project_name.middlewares.ProxyMiddleware': 100,
+}
